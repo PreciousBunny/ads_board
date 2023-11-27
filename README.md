@@ -23,23 +23,25 @@ Frontend-часть уже готова.
 
 <h3>Запуск проекта</h3>
 
-1. Создать виртуальное окружение
-`python3 -m venv venv`
-2. Активировать виртуальное окружение
+1. Установить локально на свой компьютер Python версией не ниже 3.10.x!
+2. Клонировать файлы проекта с GitHub репозитория.
+3. Создать виртуальное окружение:
+- `python3 -m venv venv`
+4. Активировать виртуальное окружение:
 - `venv/Scripts/activate (Windows)`
 - `source venv/bin/activate (Linux, MacOS)`
-3. Установить зависимости
-`pip install -r requirements.txt`
-4. Создать файл .env c переменными окружения
-5. Добавить в файл настройки, как в .env.sample и заполнить их.
-6. Поднять контейнеры:
-`docker-compose up -d`
-7. Создать и накатить миграции:
+5. Установить зависимости:
+- `pip install -r requirements.txt`
+6. Создать файл .env c переменными окружения.
+7. Добавить в файл настройки, как в .env.sample и заполнить их.
+8. Поднять контейнеры:
+- `docker-compose up -d`
+9. Создать и накатить миграции:
  - `python skymarket/manage.py makemigrations`
  - `python skymarket/manage.py migrate`
-8. Заполнить Базу Данных:
+10. Заполнить базу данных:
 - `python skymarket/manage.py loaddata skymarket\fixtures\users.json`
 - `python skymarket/manage.py loaddata skymarket\fixtures\ad.json`
 - `python skymarket/manage.py loaddata skymarket\fixtures\comments.json`
-9. Запустить сервер
+11. Запустить сервер:
 - `python skymarket/manage.py runserver`

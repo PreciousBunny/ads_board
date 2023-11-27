@@ -37,7 +37,7 @@ Frontend-часть уже готова.
 7. Создать и накатить миграции:
  - `python skymarket/manage.py makemigrations`
  - `python skymarket/manage.py migrate`
-8. Заполнить Базду Данных:
+8. Заполнить Базу Данных:
 - `python skymarket/manage.py loaddata skymarket\fixtures\users.json`
 - `python skymarket/manage.py loaddata skymarket\fixtures\ad.json`
 - `python skymarket/manage.py loaddata skymarket\fixtures\comments.json`

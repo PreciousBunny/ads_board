@@ -12,7 +12,7 @@ comments_router.register(r"comments", CommentViewSet, basename="comments")
 
 app_name = SalesConfig.name
 
-# TODO настройка роутов для модели
+# настройка роутов для модели
 
 
 urlpatterns = [

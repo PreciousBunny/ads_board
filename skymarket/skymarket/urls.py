@@ -7,7 +7,7 @@ from drf_yasg.views import get_schema_view
 from rest_framework import permissions
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView, TokenVerifyView
 
-# TODO здесь необходимо подклюючит нужные нам urls к проекту
+# здесь необходимо подклюючит нужные нам urls к проекту
 
 schema_view = get_schema_view(
    openapi.Info(

@@ -5,8 +5,8 @@ from django.utils.translation import gettext_lazy as _
 
 
 # Create your models here.
-# TODO здесь должен быть менеджер для модели Юзера.
-# TODO Поищите эту информацию в рекомендациях к проекту
+# здесь должен быть менеджер для модели Юзера.
+# Поищите эту информацию в рекомендациях к проекту
 
 
 class UserManager(BaseUserManager):

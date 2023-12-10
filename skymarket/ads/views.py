@@ -18,7 +18,7 @@ class AdPagination(pagination.PageNumberPagination):
     max_page_size = 50
 
 
-# TODO view функции. Предлагаем Вам следующую структуру - но Вы всегда можете использовать свою
+# view функции. Предлагаем Вам следующую структуру - но Вы всегда можете использовать свою
 class AdViewSet(viewsets.ModelViewSet):
     queryset = Ad.objects.select_related('author').all()
     serializer_class = AdSerializer

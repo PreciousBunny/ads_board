@@ -40,8 +40,6 @@ Frontend-часть уже готова.
  - `python skymarket/manage.py makemigrations`
  - `python skymarket/manage.py migrate`
 10. Заполнить базу данных:
-- `python skymarket/manage.py loaddata skymarket\fixtures\users.json`
-- `python skymarket/manage.py loaddata skymarket\fixtures\ad.json`
-- `python skymarket/manage.py loaddata skymarket\fixtures\comments.json`
+- `python skymarket/manage.py loaddata fixtures/*.json`
 11. Запустить сервер:
 - `python skymarket/manage.py runserver`

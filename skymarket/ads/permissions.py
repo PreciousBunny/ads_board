@@ -2,7 +2,7 @@ from rest_framework.permissions import BasePermission
 from users.models import UserRoles
 
 
-# TODO здесь производится настройка пермишенов для нашего проекта
+# здесь производится настройка пермишенов для нашего проекта
 
 class AdminOrOwner(BasePermission):
     def has_permission(self, request, view):
